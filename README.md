@@ -73,8 +73,8 @@ Class Participation                |   10   |    10.0%   |
 |----------|-----|-------------------------------------|--------|
 | Aug. 22  | Th  | Work Flow, Productivity Software    |        |
 | Aug. 27  | T   | Work Flow, Productivity Software    |        |
-| Aug. 29  | Th  | Python/OOP                          | PS #1  |
-| Sept. 3  | T   | Python/OOP                          |        |
+| Aug. 29  | Th  | Python/OOP                          |   |
+| Sept. 3  | T   | Python/OOP                          |   PS #1     |
 | Sept. 5  | Th  | Functions, Optimizers, Root-Finders |        |
 | Sept. 10 | T   | Functions, Optimizers, Root-Finders | PS #2  |
 | Sept. 12 | Th  | Functions, Optimizers, Root-Finders |        |
