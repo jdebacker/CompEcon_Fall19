@@ -1,4 +1,4 @@
-# ECON 815: Computational Methods for Economists (Fall 2017) #
+# ECON 815: Computational Methods for Economists (Fall 2019) #
 
 |  | [Jason DeBacker](http://jasondebacker.com) |
 |--------------|--------------------------------------------------------------|
