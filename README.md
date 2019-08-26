@@ -25,7 +25,7 @@ In this course students, through lecture and application, students will learn ab
 	* Python
 	* R
 * How to write custom estimation routines and use packages written by others for:
-	* Geneneralized method of moments estimators
+	* Generalized method of moments estimators
 	* Maximum likelihood estimators
 	* Maximum score estimators
 	* Reduced form estimators such as regression discontinuity design
