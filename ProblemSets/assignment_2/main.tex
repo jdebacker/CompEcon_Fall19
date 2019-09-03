@@ -1,0 +1,79 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Lachaise Assignment
+% LaTeX Template
+% Version 1.0 (26/6/2018)
+%
+% This template originates from:
+% http://www.LaTeXTemplates.com
+%
+% Authors:
+% Marion Lachaise & François Févotte
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{article}
+
+\input{structure.tex} % Include the file specifying the document structure and custom commands
+
+%----------------------------------------------------------------------------------------
+%	ASSIGNMENT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\title{Problem Set \#1 } % Title of the assignment
+
+\author{Mahyar Ebrahimitorki\\ \texttt{mahyar\_ebrahimi\_torki@yahoo.com}} % Author name and email address
+
+\date{University of South Carolina --- \today} % University, school and/or department name(s) and a date
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\maketitle % Print the title
+
+%----------------------------------------------------------------------------------------
+%	INTRODUCTION
+%----------------------------------------------------------------------------------------
+
+\section*{ A brief summary of research interest } % Unnumbered section
+
+I am interested in behavioral economics in crisis period and analyzing decision makers' behaviors in any section of economy to reveal their accumulate effects.In this regard I like to dig into game theory, now-casting methods and working with big data. I think by using big data and employing method of game theory I can categorize people's decision, specially in crisis. In the following paragraph, I will elaborate on the path which guides me to develop aforementioned interest.\\
+Working in market, among people without academic background, taught me great lessons. While working in accounting company as an accountant and financial advisor, majority of people asked me to increase their wealth and they all had suggestions more accurate and tenable than mine. So it made me to think in a different way than I used to. I always try to analyze economy and financial markets based on historical data and the most up-to-date one without paying attention to the market decision makers and main costumers, in general, to the people who play the main role in the market. But as I mentioned, nonacademic people who gave me great recommendations analyze market based on behavior rather than statistics. Therefore, I decided to find the more reliable way to analyze this important factor which lead me to game theory and big data.\\
+For now-casting and monitoring economic conditions we need to use real-time data flow  in high volume \cite{bok2018macroeconomic} which is called big data and for analyzing this type of data programming and web-scraping skills are crucially important because data should be not only comprehensive  but also relevant. \\
+In this regard, following initial formula summarize the raw idea which I mentioned in previous paragraph:
+\\\textbf{phase one} is modeling decision makers' decisions in crisis by using game theory 
+\begin{equation}
+  D_{t} = d_{f} + d_{h} + d_{g} + d_{o} + d_{fi}
+\end{equation}
+% Math equation/formula
+  In the first formula $D_{t}$ is total affections of decision makers in all sectors,$d_{f}$ is  firms decision makers affections on all sectors, $d_{h}$ is households decision makers affections on all sectors, $d_{g}$ is firms decision makers affections on all sectors, $d_{o}$ is overseas  decision makers affections on all sectors $d_{fi}$ is financial  decision makers affections on all sectors.For formula 1 we use "Five-sector model" \cite{buultjens2000excel} as shown in figure 1 and 2 
+ \begin{figure}
+  	\includegraphics[width=\linewidth]{FiveSectorCircularFlowofIncomeModel.jpg}
+  	\caption{five sector circular of income.}
+  	\label{fig:1}
+ \end{figure} 
+  \begin{figure}
+  	\includegraphics[width=\linewidth]{800px04circularflowdiagram.png}
+  	\caption{Five sector circular flow}
+  	\label{fig:1}
+  \end{figure}
+  	
+  In the second phase, we nowcast the near future by using the outcome of first phase as follow: 
+  \begin{equation}
+  y_{t} = \beta_{1} D_{Tt} + \beta_{2} x_{t} + \varepsilon_{t}
+  \end{equation}
+  where $y_{t}$ is the economic variable of interest in the economy, $D_{Tt}$ is the outcome first step, and $x_{t}$ is the vector of other variables affecting the outcome variable. $\beta_{1}$ and $\beta_{2}$ are the coefficients and $\varepsilon_{t}$ is the vector of residuals. 
+  	
+\bibliographystyle{authordate1}
+\bibliography{bibliography}
+
+
+\end{document}
