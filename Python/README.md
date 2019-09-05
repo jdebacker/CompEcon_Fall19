@@ -17,10 +17,10 @@ This module of the course introduces you to the basics of programming in Python,
 * [Writing Functions in Python](https://github.com/jdebacker/CompEcon_Fall19/blob/master/Python/PythonFuncs.ipynb)
 
 ## 3. Notebooks we worked through in class
-* 
+* [Bult in Types and Numpy](https://github.com/jdebacker/CompEcon_Fall19/blob/master/Python/InClass_BasicLibraryNumpy.ipynb)
 
 ## 4. Useful Links
 
-* [Pandas Techniques](https://medium.com/@sean.turner026/week-2-and-useful-pandas-techniques-2f5dd78a5a59)
 * [Builtin Superheros](https://youtu.be/j6VSAsKAj98)
+* [Pandas Techniques](https://medium.com/@sean.turner026/week-2-and-useful-pandas-techniques-2f5dd78a5a59)
 * [Pandas guides](http://tomaugspurger.github.io/archives.html)
