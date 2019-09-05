@@ -3,7 +3,7 @@ This module of the course covers numerical optimization methods and applies them
 
 ## Tutorials to get you started
 
-* [Rootfinders and Minimizers in Python](https://github.com/jdebacker/CompEcon_Fall17/blob/master/Functions/PythonRootMin.ipynb)
+* [Rootfinders and Minimizers in Python](https://github.com/jdebacker/CompEcon_Fall19/blob/master/Optimization/PythonRootMin.ipynb)
 
 ## Notebooks we worked through in class
 
