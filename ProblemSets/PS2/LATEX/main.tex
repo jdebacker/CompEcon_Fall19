@@ -1,0 +1,125 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Lachaise Assignment
+% LaTeX Template
+% Version 1.0 (26/6/2018)
+%
+% This template originates from:
+% http://www.LaTeXTemplates.com
+%
+% Authors:
+% Marion Lachaise & François Févotte
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{article}
+
+
+%----------------------------------------------------------------------------------------
+%	Snippet
+%----------------------------------------------------------------------------------------
+
+
+\usepackage{listings} % Required for inserting code snippets
+\usepackage[usenames,dvipsnames]{color} % Required for specifying custom colors and referring to colors by name
+
+\definecolor{DarkGreen}{rgb}{0.0,0.4,0.0} % Comment color
+\definecolor{highlight}{RGB}{255,251,204} % Code highlight color
+
+\lstdefinestyle{Style1}{ % Define a style for your code snippet, multiple definitions can be made if, for example, you wish to insert multiple code snippets using different programming languages into one document
+	language=Python, % Detects keywords, comments, strings, functions, etc for the language specified
+	backgroundcolor=\color{highlight}, % Set the background color for the snippet - useful for highlighting
+	basicstyle=\footnotesize\ttfamily, % The default font size and style of the code
+	breakatwhitespace=false, % If true, only allows line breaks at white space
+	breaklines=true, % Automatic line breaking (prevents code from protruding outside the box)
+	captionpos=b, % Sets the caption position: b for bottom; t for top
+	commentstyle=\usefont{T1}{pcr}{m}{sl}\color{DarkGreen}, % Style of comments within the code - dark green courier font
+	deletekeywords={}, % If you want to delete any keywords from the current language separate them by commas
+	%escapeinside={\%}, % This allows you to escape to LaTeX using the character in the bracket
+	firstnumber=1, % Line numbers begin at line 1
+	frame=single, % Frame around the code box, value can be: none, leftline, topline, bottomline, lines, single, shadowbox
+	frameround=tttt, % Rounds the corners of the frame for the top left, top right, bottom left and bottom right positions
+	keywordstyle=\color{Blue}\bf, % Functions are bold and blue
+	morekeywords={}, % Add any functions no included by default here separated by commas
+	numbers=left, % Location of line numbers, can take the values of: none, left, right
+	numbersep=10pt, % Distance of line numbers from the code box
+	numberstyle=\tiny\color{Gray}, % Style used for line numbers
+	rulecolor=\color{black}, % Frame border color
+	showstringspaces=false, % Don't put marks in string spaces
+	showtabs=false, % Display tabs in the code as lines
+	stepnumber=5, % The step distance between line numbers, i.e. how often will lines be numbered
+	stringstyle=\color{Purple}, % Strings are purple
+	tabsize=2, % Number of spaces per tab in the code
+}
+
+% Create a command to cleanly insert a snippet with the style above anywhere in the document
+\newcommand{\insertcode}[2]{\begin{itemize}\item[]\lstinputlisting[caption=#2,label=#1,style=Style1]{#1}\end{itemize}} % The first argument is the script location/filename and the second is a caption for the listing
+
+%----------------------------------------------------------------------------------------
+
+\input{structure.tex} % Include the file specifying the document structure and custom commands
+
+%----------------------------------------------------------------------------------------
+%	ASSIGNMENT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\title{Problem Set \#2} % Title of the assignment
+
+\author{Saharnaz Babaei Balderlou\\ \texttt{saharnaz.babaei@grad.moore.sc.edu}} % Author name and email address
+
+\date{University of South Carolina --- \today} % University, school and/or department name(s) and a date
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\maketitle % Print the title
+
+%----------------------------------------------------------------------------------------
+%	INTRODUCTION
+%----------------------------------------------------------------------------------------
+
+\section*{Part 1 - Standard Library} % Unnumbered section
+
+\subsection*{Problem 1}
+\insertcode{"p11.pl"}{} % The first argument is the script location/filename and the second is a caption for the listing
+
+\subsection*{Problem 2}
+\insertcode{"p12.pl"}{} % The first argument is the script location/filename and the second is a caption for the listing
+
+\subsection*{Problem 3}
+\insertcode{"p13.pl"}{} % The first argument is the script location/filename and the second is a caption for the listing
+
+\vspace{5mm}
+
+\section*{Part 2 - Introductory to Numpy}
+
+\subsection*{Problem 1}
+\insertcode{"p21.pl"}{} % The first argument is the script location/filename and the second is a caption for the listing
+
+\subsection*{Problem 2}
+\insertcode{"p22.pl"}{} % The first argument is the script location/filename and the second is a caption for the listing
+
+\subsection*{Problem 5}
+\insertcode{"p25.pl"}{} % The first argument is the script location/filename and the second is a caption for the listing
+
+\vspace{5mm}
+
+\section*{Part 3 - Object-Oriented Programming}
+
+\subsection*{Problem 1}
+\insertcode{"p31.pl"}{} % The first argument is the script location/filename and the second is a caption for the listing
+
+\subsection*{Problem 2}
+\insertcode{"p32.pl"}{} % The first argument is the script location/filename and the second is a caption for the listing
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
