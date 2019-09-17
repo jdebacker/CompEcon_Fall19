@@ -8,6 +8,7 @@ This module of the course covers numerical optimization methods and applies them
 ## 2. Notebooks we worked through in class
 
 * [Minimizers in Python](https://github.com/jdebacker/CompEcon_Fall19/blob/master/Optimization/Optimization.ipynb)
+* [Estimation of an Error Components Model](https://github.com/jdebacker/CompEcon_Fall19/blob/master/Optimization/ECM_Estimation.ipynb)
 
 ## 4. Problem Set
 
