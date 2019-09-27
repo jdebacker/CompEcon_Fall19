@@ -74,24 +74,24 @@ Class Participation                |   10   |    10.0%   |
 | Aug. 22  | Th  | Work Flow, Productivity Software    |        |
 | Aug. 27  | T   | Work Flow, Productivity Software    |        |
 | Aug. 29  | Th  | Python/OOP                          |   |
-| Sept. 3  | T   | Python/OOP                          |   PS #1     |
-| Sept. 5  | Th  | Functions, Optimizers, Root-Finders |        |
-| Sept. 10 | T   | Functions, Optimizers, Root-Finders | PS #2  |
-| Sept. 12 | Th  | Functions, Optimizers, Root-Finders |        |
-| Sept. 17 | T   | Functions, Optimizers, Root-Finders |        |
-| Sept. 19 | Th  | Conditionals/Loops                  |        |
-| Sept. 24 | T   | Conditionals/Loops                  | PS #3  |
-| Sept. 26 | Th  | Conditionals/Loops                  |        |
-| Oct. 1   | T   | Vizualization                       |        |
-| Oct. 3   | Th  | Econometrics in Python and R        | PS #4  |
+| Sept. 3  | T   | Python/OOP                          |   [PS #1](https://github.com/jdebacker/CompEcon_Fall19/blob/master/Productivity/PS1.pdf)     |
+| Sept. 5  | Th  | Python/OOP |        |
+| Sept. 10 | T   | Numerical Optimization Theory |   |
+| Sept. 12 | Th  |  Numerical Optimization Theory  | [PS #2](https://github.com/jdebacker/CompEcon_Fall19/blob/master/Python/PS2.pdf)       |
+| Sept. 17 | T   | Optimizers, Root-Finders in Python |        |
+| Sept. 19 | Th  | Optimization Application: GMM                 |        |
+| Sept. 24 | T   | Two-Sides Matching Models                  |   |
+| Sept. 26 | Th  | Maximum Score Estimators                  |        |
+| Oct. 1   | T   | Conditionals/Loops                       |  [PS #3](https://github.com/jdebacker/CompEcon_Fall19/blob/master/Optimization/PS3.pdf)      |
+| Oct. 3   | Th  | Vizualization        |   |
 | Oct. 8   | T   | Econometrics in Python and R        |        |
 | Oct. 10  | Th  | No class, Fall Break                |        |
-| Oct. 15  | T   | Econometrics in Python and R        | PS #5  |
+| Oct. 15  | T   | Econometrics in Python and R        | PS #4  |
 | Oct. 17  | Th  | Webscraping/APIs to gather data     |        |
-| Oct. 22  | T   | Webscraping/APIs to gather data     |        |
-| Oct. 24  | Th  | Webscraping/APIs to gather data     | PS #6  |
+| Oct. 22  | T   | Webscraping/APIs to gather data     | PS #5       |
+| Oct. 24  | Th  | Webscraping/APIs to gather data     |  |
 | Oct. 29  | T   | Dynamic Programming                 |        |
-| Oct. 31  | Th  | Dynamic Programming                 |        |
+| Oct. 31  | Th  | Dynamic Programming                 |  PS #6       |
 | Nov. 5   | T   | Markov Chains                       | PS #7  |
 | Nov. 7   | Th  | Discrete Choice Dynamic Programming |        |
 | Nov. 12  | T   | Computational Approaches to DPs     |        |
