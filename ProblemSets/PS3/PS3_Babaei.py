@@ -273,6 +273,7 @@ print('===================')
 print(res2000_OLS.summary())
 print('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~')
 '''
+
 years = ['data1971.npy', 'data1980.npy', 'data1990.npy', 'data2000.npy', 'data.npy']
 for t in years:
     print('OLS for', t)
