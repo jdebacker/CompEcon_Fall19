@@ -52,8 +52,12 @@ data = pd.concat([df2, race_dummy], axis = 1)
 data.rename(columns = {1.0: 'White', 2.0: 'Black', 3.0: 'Others'}, inplace = True) #final data "data"; ready to estimate model
 data.head()
 data.dtypes
+<<<<<<< HEAD:ProblemSets/PS3/PS3_Babaei.py
 
 # Saving the data
+=======
+# Save the data
+>>>>>>> ProblemSets:ProblemSets/PS3/PS3_Babaei1.py
 np.save("data", data)
 # Separate years for estimation
 data1971 = data[data['year'] == 1971]
@@ -143,6 +147,7 @@ for t in years:
     print("_____________________________________")
 #### I tried this loop so many times and attempted to troubleshoot but finally I got this error: "string indices must be integers"
 '''
+
 # MLE; 'L-BFGS-B'
 nbeta = 5
 beta = np.zeros(nbeta)
@@ -280,6 +285,7 @@ for t in years:
     print('_______________________________________________________________________________________________')
 '''
 
+<<<<<<< HEAD:ProblemSets/PS3/PS3_Babaei.py
 
 #  ---------------------------------
 # # Interpretation (Part 4)
@@ -291,8 +297,13 @@ for t in years:
 # **All in all, education and wages are positively correlated and increasing the years of education will lead to higher wages.**
 =======
 # # ---------------------------------
+=======
+#  ---------------------------------
+>>>>>>> ProblemSets:ProblemSets/PS3/PS3_Babaei1.py
 # # Interpretation (Part 4)
-# # ---------------------------------
-# To answer this question that how the returns to education change over time in these data, we can note that it is increasing. The results for OLS estimation in the full sample indicate that 1 unit increase in the years of education of males will result in a 7.8 % increase in logarithm of their wage. Using data for 1971, we can see that this increase in the wage is as much as 6.7% as a result of each year of increased education for the male heads. We can also see that the percentage of increase in the log of wages is 6.8%, 9.8%, & 11% for 1980, 1990, and 2000, respectively, after one more year of education.
+#  ---------------------------------
+# To answer this question that how the returns to education change over time in these data, we can note that it is increasing. The results for OLS estimation in the full sample indicate that 1 unit increase in the years of education of males will result in a 7.8 % increase in their wages. Using data for 1971, we can see that this increase in the wage is as much as 6.7% as a result of each year of increased education for the male heads. We can also see that the percentage of increase in the wages is 6.8%, 9.8%, & 11% for 1980, 1990, and 2000, respectively, after one more year of education.
 #
-# In addition, I estimated the same linear model using the maximum likelihood model and the estimated coefficients for the education are 7.8, 6.97, 6.7, 11.8, 10.9 percent for the full sample, 1971 sample of the data, 1980, 1990 and 2000 samples, respectively which supports the estimation of the model using OLS both in magnitude and signature. MLE method can be estimated using several optimization methods for the likelihood function. After using Nelder-Mead method and gaining aforementioned estimations, we used bounded L-BFGS-B and SLSQP methods. The former estimates the coefficients of the education as 7.8, 6.7, 6.7, 9.7, and 10.9 % for the full dataset, 1971, 1980, 1990, 2000 datasets respectively which is againg very close the estimations of the model using OLS methodology. But the latter estimated far away coefficients for the provided samples of the data.
+# In addition, I estimated the same linear model using the maximum likelihood model and the estimated coefficients for the education are 7.8, 6.97, 6.7, 11.8, 10.9 percent for the full sample, 1971 sample of the data, 1980, 1990 and 2000 samples, respectively, which supports the estimation of the model using OLS both in magnitude and signature. MLE method can be estimated using several optimization methods for the likelihood function. After using Nelder-Mead method and gaining aforementioned estimations, we used bounded L-BFGS-B and SLSQP methods. The former estimates the coefficients of the education as 7.8, 6.7, 6.7, 9.7, and 10.9 % for the full dataset, 1971, 1980, 1990, 2000 datasets respectively which is againg very close to the estimations of the model using OLS methodology. But the latter estimated far away coefficients for the provided samples of the data with initial values of 0.1 for all coefficients and tolerance level of 1e-15. However, after changing the initial values of the coefficients in the optimization method, I received the same estimations as the ones in OLS and other MLE optimization methods.
+#
+# **All in all, education and wages are positively correlated and increasing the years of education will lead to higher wages.**
