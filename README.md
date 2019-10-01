@@ -86,7 +86,7 @@ Class Participation                |   10   |    10.0%   |
 | Oct. 3   | Th  | Vizualization        |   |
 | Oct. 8   | T   | Econometrics in Python and R        |        |
 | Oct. 10  | Th  | No class, Fall Break                |        |
-| Oct. 15  | T   | Econometrics in Python and R        | PS #4  |
+| Oct. 15  | T   | Econometrics in Python and R        | [PS #4](https://github.com/jdebacker/CompEcon_Fall19/blob/master/Matching/PS4.pdf)  |
 | Oct. 17  | Th  | Webscraping/APIs to gather data     |        |
 | Oct. 22  | T   | Webscraping/APIs to gather data     | PS #5       |
 | Oct. 24  | Th  | Webscraping/APIs to gather data     |  |
