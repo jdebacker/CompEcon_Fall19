@@ -14,6 +14,7 @@ This module of the course covers data visualization tools.  We'll learn these to
 ## 2. Tutorials
 * [ACME Lab on Visualization in Python](https://github.com/jdebacker/CompEcon_Fall19/blob/master/Visualization/Vol1A-DataVisualization-2016.pdf)
 * [ACME Lab on Bokeh](https://github.com/jdebacker/CompEcon_Fall19/blob/master/Visualization/Vol3A-Bokeh-2016.pdf)
+* [Rick Evans' visualization notebook](https://github.com/jdebacker/CompEcon_Fall19/blob/master/Visualization/PythonVisualize.ipynb)
 
 ## 3. Useful Links
 
