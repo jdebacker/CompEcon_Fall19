@@ -27,7 +27,7 @@ Additionally, if you like Atom and want to continue using it for writing R scrip
 
 ## 2. Notebooks we worked through in class
 
-* [Intro to R data strutures](https://github.com/jdebacker/CompEcon_Fall19/blob/master/Econometrics/R_Basics.ipynb)
+* [Intro to R data structures](https://github.com/jdebacker/CompEcon_Fall19/blob/master/Econometrics/R_Basics.ipynb)
 * [Reading and writing data in R](https://github.com/jdebacker/CompEcon_Fall19/blob/master/Econometrics/R_Data.ipynb)
 * [Writing functions, numerical optimization in R](https://github.com/jdebacker/CompEcon_Fall19/blob/master/Econometrics/R_Functions.ipynb)
 
