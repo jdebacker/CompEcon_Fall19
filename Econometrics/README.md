@@ -1,8 +1,14 @@
 ## R (and Python) for Econometrics
 This module of the course covers non-structural econometric methods and how to apply these tools using open source software: mainly in R, but also in Python.
 
-## Installing R and Setting up Kernal for Jupyter Notebooks
+## 1. Installing R and Setting up Kernal for Jupyter Notebooks
 
+There are a couple option here and some are more or less straight forward depending on your OS and if you already have R installed already.
+
+### Method 1:
+* Follow [these instructions](https://docs.anaconda.com/anaconda/navigator/tutorials/r-lang/) to install the R kernal for Jupyter Notebook using the Anaconda navigator.
+
+### Method 2:
 Do the following:
 1. [Install R from CRAN](https://cran.r-project.org)
 2. If you want a popular IDE for R, [intall RStudio](https://www.rstudio.com)
@@ -19,8 +25,18 @@ Additionally, if you like Atom and want to continue using it for writing R scrip
 
 (Note that Anaconda's package manager Conda does manage R packages, but at least in my experience with OSX, this manager has not worked well.  Thus I recommend installing from CRAN as outlined above.)
 
+## 2. Notebooks we worked through in class
 
-## Useful Links
+* [Intro to R data strutures](https://github.com/jdebacker/CompEcon_Fall19/blob/master/Econometrics/R_Basics.ipynb)
+* [Reading and writing data in R](https://github.com/jdebacker/CompEcon_Fall19/blob/master/Econometrics/R_Data.ipynb)
+* [Writing functions, numerical optimization in R](https://github.com/jdebacker/CompEcon_Fall19/blob/master/Econometrics/R_Functions.ipynb)
+
+## 3. Problem Set
+
+* [Problem Set #5](https://github.com/jdebacker/CompEcon_Fall19/blob/master/Econometrics/PS5.pdf)
+
+
+## 4. Useful Links
 
 * R
 	* [Guide to R for Stata Users](http://dss.princeton.edu/training/RStata.pdf)

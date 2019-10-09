@@ -88,15 +88,15 @@ Class Participation                |   10   |    10.0%   |
 | Oct. 10  | Th  | No class, Fall Break                |        |
 | Oct. 15  | T   | Econometrics in Python and R        | [PS #4](https://github.com/jdebacker/CompEcon_Fall19/blob/master/Matching/PS4.pdf)  |
 | Oct. 17  | Th  | Webscraping/APIs to gather data     |        |
-| Oct. 22  | T   | Webscraping/APIs to gather data     | PS #5       |
+| Oct. 22  | T   | Webscraping/APIs to gather data     |        |
 | Oct. 24  | Th  | Webscraping/APIs to gather data     |  |
-| Oct. 29  | T   | Dynamic Programming                 |        |
-| Oct. 31  | Th  | Dynamic Programming                 |  PS #6       |
-| Nov. 5   | T   | Markov Chains                       | PS #7  |
+| Oct. 29  | T   | Dynamic Programming                 |  [PS #5](https://github.com/jdebacker/CompEcon_Fall19/blob/master/Econometrics/PS5.pdf)      |
+| Oct. 31  | Th  | Dynamic Programming                 |        |
+| Nov. 5   | T   | Markov Chains                       | PS #6  |
 | Nov. 7   | Th  | Discrete Choice Dynamic Programming |        |
 | Nov. 12  | T   | Computational Approaches to DPs     |        |
 | Nov. 14  | Th  | Multiprocessing                     |        |
-| Nov. 19  | T   | Simulation Methods                  |        |
+| Nov. 19  | T   | Simulation Methods                  | PS #7       |
 | Nov. 21  | Th  | Simulation Methods                  |        |
 | Nov. 26  | T   | Overlapping Generations Models      | PS # 8 |
 | Nov. 28  | Th  | No class, Thanksgiving              |        |
