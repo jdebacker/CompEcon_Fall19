@@ -301,12 +301,12 @@ def MSE_transfer(params, data):
         
 
 
-# In[17]:
+# In[ ]:
 
 
 # Using Differential Evolution for part 2 ( price transfers)
 import scipy
-results2_DE=scipy.optimize.differential_evolution(MSE, strategy='best1bin',args=(Market, ),bounds=[(-20000,20000),(-30000,30000),(-20000,20000),(-30000,30000)])
+results2_DE=scipy.optimize.differential_evolution(MSE_transfer, strategy='best1bin',args=(Market, ),bounds=[(-20000,20000),(-30000,30000),(-20000,20000),(-30000,30000)])
 
 
 # In[18]:
