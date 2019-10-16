@@ -32,6 +32,7 @@ Additionally, if you like Atom and want to continue using it for writing R scrip
 * [Writing functions, numerical optimization in R](https://github.com/jdebacker/CompEcon_Fall19/blob/master/Econometrics/R_Functions.ipynb)
 * [Econometrics in R](https://github.com/jdebacker/CompEcon_Fall19/blob/master/Econometrics/R_Econometrics.ipynb)
 * [RDD in R](https://github.com/jdebacker/CompEcon_Fall19/blob/master/Econometrics/R_RDD.ipynb)
+* [Econometrics in Python](https://github.com/jdebacker/CompEcon_Fall19/blob/master/Econometrics/Python_Econometrics.ipynb)
 
 ## 3. Problem Set
 
@@ -50,5 +51,6 @@ Additionally, if you like Atom and want to continue using it for writing R scrip
 	* [QuantEcon: Linear regression in Python](https://lectures.quantecon.org/py/ols.html)
 	* Panel Data Models in Python via the [linearmodels package](https://pypi.python.org/pypi/linearmodels)
 	* [rpy2 for calling R from Python](http://rpy2.readthedocs.io/en/version_2.8.x/overview.html)
+  * [RDD packge for Python](https://github.com/evan-magnusson/rdd), still under develpoment by the excellent Evan Magnusson
 * General
   * Gentzkow and Shaprio, [Code and Data for the Social Sciences: A Practitionar's Guide](http://web.stanford.edu/~gentzkow/research/CodeAndData.pdf)
