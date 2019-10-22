@@ -28,3 +28,5 @@ This module of the course introduces you to the basics of programming in Python,
 * [Builtin Superheros](https://youtu.be/j6VSAsKAj98)
 * [Pandas Techniques](https://medium.com/@sean.turner026/week-2-and-useful-pandas-techniques-2f5dd78a5a59)
 * [Pandas guides](http://tomaugspurger.github.io/archives.html)
+* [PEP8 Style Guide](https://www.python.org/dev/peps/pep-0008/)
+* [I Don't Like Notebooks](https://t.co/30peBFwTbv) by [Joel Grus](https://joelgrus.com)
