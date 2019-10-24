@@ -80,7 +80,7 @@ Class Participation                |   10   |    10.0%   |
 | Sept. 12 | Th  |  Numerical Optimization Theory  | [PS #2](https://github.com/jdebacker/CompEcon_Fall19/blob/master/Python/PS2.pdf)       |
 | Sept. 17 | T   | Optimizers, Root-Finders in Python |        |
 | Sept. 19 | Th  | Optimization Application: GMM                 |        |
-| Sept. 24 | T   | Two-Sides Matching Models                  |   |
+| Sept. 24 | T   | Two-Sided Matching Models                  |   |
 | Sept. 26 | Th  | Maximum Score Estimators                  |        |
 | Oct. 1   | T   | Conditionals/Loops                       |  [PS #3](https://github.com/jdebacker/CompEcon_Fall19/blob/master/Optimization/PS3.pdf)      |
 | Oct. 3   | Th  | Vizualization        |   |
@@ -92,9 +92,9 @@ Class Participation                |   10   |    10.0%   |
 | Oct. 24  | Th  | Webscraping/APIs to gather data     |  |
 | Oct. 29  | T   | Dynamic Programming                 |  [PS #5](https://github.com/jdebacker/CompEcon_Fall19/blob/master/Econometrics/PS5.pdf)      |
 | Oct. 31  | Th  | Dynamic Programming                 |        |
-| Nov. 5   | T   | Markov Chains                       | PS #6  |
+| Nov. 5   | T   | Markov Chains                       |   |
 | Nov. 7   | Th  | Discrete Choice Dynamic Programming |        |
-| Nov. 12  | T   | Computational Approaches to DPs     |        |
+| Nov. 12  | T   | Computational Approaches to DPs     | [PS #6](https://github.com/jdebacker/CompEcon_Fall19/blob/master/WebData/PS6.pdf)       |
 | Nov. 14  | Th  | Multiprocessing                     |        |
 | Nov. 19  | T   | Simulation Methods                  | PS #7       |
 | Nov. 21  | Th  | Simulation Methods                  |        |
