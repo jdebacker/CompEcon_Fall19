@@ -94,7 +94,7 @@ Class Participation                |   10   |    10.0%   |
 | Oct. 31  | Th  | Dynamic Programming                 |        |
 | Nov. 5   | T   | Markov Chains                       |   |
 | Nov. 7   | Th  | Discrete Choice Dynamic Programming |        |
-| Nov. 12  | T   | Computational Approaches to DPs     | [PS #6](https://github.com/jdebacker/CompEcon_Fall19/blob/master/WebData/PS6.pdf)       |
+| Nov. 12  | T   | Computational Approaches to DPPs     | [PS #6](https://github.com/jdebacker/CompEcon_Fall19/blob/master/WebData/PS6.pdf)       |
 | Nov. 14  | Th  | Multiprocessing                     |        |
 | Nov. 19  | T   | Simulation Methods                  | PS #7       |
 | Nov. 21  | Th  | Simulation Methods                  |        |
