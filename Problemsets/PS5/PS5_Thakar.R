@@ -10,7 +10,7 @@ library(sandwich)
 library(stargazer)
 
 # Import the data:
-df<-read.delim(file = "clipboard")
+df<-read.csv(file = "C:/Users/Devashish/Desktop/CompEcon_Fall19/Problemsets/PS5/Compiled Dataset.csv")
 
 # Make Average Revenue per User Numeris
 df$ARPU <- as.numeric(df$ARPU)
