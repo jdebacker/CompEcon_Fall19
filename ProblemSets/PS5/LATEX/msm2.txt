@@ -1,0 +1,53 @@
+Markov Switching Model
+
+Call: msmFit(object = model2, k = 2, sw = rep(TRUE, 9))
+
+        AIC       BIC   logLik
+  -391.8498 -279.8559 211.9249
+
+Coefficients:
+
+Regime 1
+---------
+                          Estimate Std. Error t value  Pr(>|t|)
+(Intercept)(S)              0.0870     0.0089  9.7753 < 2.2e-16 ***
+dataset2$GR(S)              0.0098     0.0018  5.4444 5.198e-08 ***
+dataset2$P(S)              -0.0016     0.0664 -0.0241  0.980773
+dataset2$POIL(S)            0.0013     0.0004  3.2500  0.001154 **
+dataset2$CAPITALG(S)       -0.0163     0.0033 -4.9394 7.836e-07 ***
+dataset2$CONSUMPTIONG(S)   -0.0101     0.0195 -0.5179  0.604528
+dataset2$INTERMEDIATEG(S)  -0.0076     0.0019 -4.0000 6.334e-05 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.008675691
+Multiple R-squared: 0.7738
+
+Standardized Residuals:
+          Min            Q1           Med            Q3           Max
+-1.888833e-02 -1.357218e-04  4.158701e-20  1.516913e-03  1.740976e-02
+
+Regime 2
+---------
+                          Estimate Std. Error  t value Pr(>|t|)
+(Intercept)(S)              0.2791     0.0285   9.7930   <2e-16 ***
+dataset2$GR(S)              0.0024     0.0050   0.4800   0.6312
+dataset2$P(S)              -0.1452     0.1642  -0.8843   0.3765
+dataset2$POIL(S)           -0.0005     0.0005  -1.0000   0.3173
+dataset2$CAPITALG(S)       -0.0087     0.0121  -0.7190   0.4721
+dataset2$CONSUMPTIONG(S)    0.0440     0.0727   0.6052   0.5450
+dataset2$INTERMEDIATEG(S)  -0.0095     0.0125  -0.7600   0.4473
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.03125846
+Multiple R-squared: 0.841
+
+Standardized Residuals:
+         Min           Q1          Med           Q3          Max
+-0.064468728 -0.010653479 -0.002042805  0.004207281  0.075164023
+
+Transition probabilities:
+          Regime 1  Regime 2
+Regime 1 0.8946761 0.0824183
+Regime 2 0.1053239 0.9175817
