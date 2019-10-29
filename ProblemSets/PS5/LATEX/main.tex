@@ -45,7 +45,7 @@
 
 \section*{Elaboration} % Unnumbered section
 
-In this problem set, I use the data from my own paper (\cite{heydari2016effects}) in which I estimated Markov-Switching model to answer the question how the correlation between oil price and the value added of industry and mine sector of Iran is affected by economic factors. What follows is the implementation of the time series data from estimated correlation between oil price and value added of industry and mine sector in Iran in \cite{heidari2015different} along with the required macroeconomic factors based on the literature.
+In this problem set, I use the data from my own paper (\cite{heydari2016effects}) in which I estimated Markov-Switching model to answer the question how the correlation between oil price and the value added of industry and mine sector of Iran is affected by economic factors. What follows is the implementation of the time series data from estimated correlation between oil price and value added of industry and mine sector in Iran in \cite{heidari2013theeffect} along with the required macroeconomic factors based on the literature.
 
 Figure 1 and 2 show that the relationship between imports and the desired correlation seems to be non-linear. Hence, after assessing a linear estimation between variables of interest, I use a non-linear method to the research question. Results for the first linear model is provided in table 1. Where the model is defined as,
 
@@ -114,13 +114,13 @@ The results for this model are provided in table 2. We can see that 100 billion 
 		& Estimate & Std. Error & t value & Pr($>$$|$t$|$) \\ 
 		\hline
 		(Intercept) & 0.1129 & 0.0235 & 4.80 & 0.0000 \\ 
-		dataset2\$GR & 0.0173 & 0.0048 & 3.60 & 0.0005 \\ 
-		dataset2\$P & 0.2388 & 0.1781 & 1.34 & 0.1836 \\ 
-		dataset2\$REER & -0.0002 & 0.0001 & -2.74 & 0.0076 \\ 
-		dataset2\$POIL & 0.0004 & 0.0005 & 0.70 & 0.4843 \\ 
-		dataset2\$CAPITALG & -0.0287 & 0.0104 & -2.76 & 0.0071 \\ 
-		dataset2\$CONSUMPTIONG & 0.0766 & 0.0434 & 1.76 & 0.0817 \\ 
-		dataset2\$INTERMEDIATEG & -0.0237 & 0.0078 & -3.05 & 0.0031 \\ 
+		GR & 0.0173 & 0.0048 & 3.60 & 0.0005 \\ 
+		P & 0.2388 & 0.1781 & 1.34 & 0.1836 \\ 
+		REER & -0.0002 & 0.0001 & -2.74 & 0.0076 \\ 
+		POIL & 0.0004 & 0.0005 & 0.70 & 0.4843 \\ 
+		CAPITALG & -0.0287 & 0.0104 & -2.76 & 0.0071 \\ 
+		CONSUMPTIONG & 0.0766 & 0.0434 & 1.76 & 0.0817 \\ 
+		INTERMEDIATEG & -0.0237 & 0.0078 & -3.05 & 0.0031 \\ 
 		\hline
 	\end{tabular}
 \end{table}
