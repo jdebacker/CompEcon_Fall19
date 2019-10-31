@@ -9,6 +9,7 @@ This module of the course illustrates computational methods to solve continous a
 *
 
 ## 3. Problem Set
+[Problem Set #7](https://github.com/jdebacker/CompEcon_Fall19/blob/master/DynamicProgramming/PS7.pdf)
 
 ## 4. Useful Links
 * [Numba](http://numba.pydata.org)
