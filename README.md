@@ -96,11 +96,11 @@ Class Participation                |   10   |    10.0%   |
 | Nov. 7   | Th  | Discrete Choice Dynamic Programming |        |
 | Nov. 12  | T   | Computational Approaches to DPPs     | [PS #6](https://github.com/jdebacker/CompEcon_Fall19/blob/master/WebData/PS6.pdf)       |
 | Nov. 14  | Th  | Multiprocessing                     |        |
-| Nov. 19  | T   | Simulation Methods                  | PS #7       |
-| Nov. 21  | Th  | Simulation Methods                  |        |
-| Nov. 26  | T   | Overlapping Generations Models      | PS # 8 |
+| Nov. 19  | T   | Simulation Methods                  |        |
+| Nov. 21  | Th  | Simulation Methods                  |    [PS #7](https://github.com/jdebacker/CompEcon_Fall19/blob/master/DynamicProgramming/PS7.pdf)    |
+| Nov. 26  | T   | Overlapping Generations Models      |  |
 | Nov. 28  | Th  | No class, Thanksgiving              |        |
-| Dec. 3   | T   | Overlapping Generations Models      |        |
+| Dec. 3   | T   | Overlapping Generations Models      | PS # 8       |
 | Dec. 5   | Th  | Overlapping Generations Models      |        |
 |          |     |                                     |        |
 | Dec. 10  | T   | No Final Exam - project due         | PS #9  |
