@@ -183,7 +183,7 @@ df=pd.concat([df_listings, df_features],axis=1).replace(np.nan, '', regex=True)
 
 # Aggregating price by brand
 df['price']=pd.to_numeric(df['price'])
-df_brand=df.groupby(['vehicle_brand']).agg({'price':'mean'}).reset_index().\sort_values('price')
+df_brand=df.groupby(['vehicle_brand']).agg({'price':'mean'}).reset_index().sort_values('price')
 
 # Plotting brand vs average price
 plt.style.use('ggplot')
@@ -286,7 +286,7 @@ Exterior features=4
 '''
 
 # I look at the average price by convenience features:
-df_convenience=df.groupby(['num_convenience']).\agg({'price':'mean'}).reset_index()
+df_convenience=df.groupby(['num_convenience']).agg({'price':'mean'}).reset_index()
 df_safety=df.groupby(['num_safety']).agg({'price':'mean'}).reset_index()
 df_entertainment=df.groupby(['num_entertainment']).agg({'price':'mean'}).reset_index()
 df_exterior=df.groupby(['num_exterior']).agg({'price':'mean'}).reset_index()
