@@ -10,5 +10,5 @@ This module of the course covers the theory and computation of general equilibri
 * Immportant OG models:
   * [Samuelson (JPE, 1958)](https://www.jstor.org/stable/1826989?seq=1#metadata_info_tab_contents)
   * [Lucas (JET, 1972)](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.592.6178&rep=rep1&type=pdf)
-  * [Shell, (JPE), 1971)](https://www.jstor.org/stable/1830269?seq=1#metadata_info_tab_contents)
+  * [Shell, (JPE, 1971)](https://www.jstor.org/stable/1830269?seq=1#metadata_info_tab_contents)
   * [Nishiyama and Smetters (QJE, 2007)](https://www.jstor.org/stable/25098886?seq=1#metadata_info_tab_contents)
