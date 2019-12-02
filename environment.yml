@@ -1,0 +1,8 @@
+name: ps9-env
+
+dependencies:
+- python
+- setuptools
+- scipy
+- matplotlib
+- pytest
