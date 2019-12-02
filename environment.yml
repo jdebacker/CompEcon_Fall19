@@ -2,7 +2,10 @@ name: ps9-env
 
 dependencies:
 - python
+- numpy
+- pandas
 - setuptools
 - scipy
 - matplotlib
 - pytest
+- os
