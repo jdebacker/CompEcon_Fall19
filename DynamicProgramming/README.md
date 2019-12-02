@@ -25,3 +25,4 @@ This module of the course illustrates computational methods to solve continous a
 * [Dask](https://dask.org)
 * [QuantEcon: Finite Markov Chains](https://lectures.quantecon.org/jl/finite_markov.html)
 * [QuantEcon: The McCall Job Search Model](https://lectures.quantecon.org/py/mccall_model.html)
+* [HPC at U of SC](https://sc.edu/about/offices_and_divisions/division_of_information_technology/rci/index.php)
