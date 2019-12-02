@@ -1,0 +1,22 @@
+sudo: false
+
+dist: xenial
+language: python
+python:
+  - "3.6"
+  - "3.7"
+
+install:
+  # Install conda
+  - wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O miniconda.sh
+  - bash miniconda.sh -b -p $HOME/miniconda
+  - export PATH="$HOME/miniconda/bin:$PATH"
+  - conda config --set always_yes yes
+  - conda update -y -n base conda setuptools
+  - conda create -n ps9-env python=$TRAVIS_PYTHON_VERSION
+  - source activate ps9-env
+  - conda env update -f environment.yml
+
+# command to run tests, e.g. python setup.py test
+script:
+  - cd ./OverlappingGenerations/ProblemSet9; python -m pytest -s -v
