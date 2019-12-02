@@ -16,4 +16,4 @@ install:
 
 # command to run tests, e.g. python setup.py test
 script:
-  - python run -m pytest -s -v -m
+  - cd /OverlappingGenerations/ProblemSet9; python -m pytest -s -v -m
