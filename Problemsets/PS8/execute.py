@@ -6,7 +6,10 @@ Created on Sun Dec  1 21:07:25 2019
 """
 
 # Calling in the wagner-whitin function and checking the output
-y=wagner_whitin(100,7,1,400,500,[70,90,140,150,120,130],0)
+import functions
+y=functions.wagner_whitin(100,7,1,400,500,[70,90,140,150,120,130],0)
+
+# Evlauate the output of the function
 y
 
 #### Min cost vs starting inventory ####
