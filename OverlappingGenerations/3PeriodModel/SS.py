@@ -19,13 +19,15 @@ def solve_ss(r_init, params):
         # get w
         w = firm.get_w(r, alpha, A, delta)
         # solve HH problem
-        foc_args = (beta, sigma, r, w, n)
+        foc_args = (beta, sigma, r, w, n, 0.0)
         b_sp1_guess = [0.05, 0.05]
         result = opt.root(hh.FOCs, b_sp1_guess, args=foc_args)
         b_sp1 = result.x
+        euler_errors = result.fun
+        b_s = np.append(0.0, b_sp1)
         # use market clearing
         L = agg.get_L(n)
-        K = agg.get_K(b_sp1)
+        K = agg.get_K(b_s)
         # find implied r
         r_prime = firm.get_r(L, K, alpha, A, delta)
         # check distance
@@ -37,4 +39,4 @@ def solve_ss(r_init, params):
         # update iteration counter
         ss_iter += 1
 
-    return r
+    return r, b_sp1, euler_errors
