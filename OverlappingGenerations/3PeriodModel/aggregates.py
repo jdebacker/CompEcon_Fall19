@@ -10,10 +10,12 @@ def get_L(n):
     return L
 
 
-def get_K(b_sp1):
+def get_K(b_s):
     '''
     Find aggregate capital supply
     '''
-    K = b_sp1.sum()
-
+    if b_s.ndim == 1:
+        K = b_s.sum()
+    if b_s.ndim == 2:
+        K = b_s.sum(axis=1)
     return K
